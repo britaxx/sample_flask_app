@@ -1,0 +1,7 @@
+{% extends "main.html" %}
+
+{% block header %}
+<form method="get" action="{{ url_for('prod.sign_in') }}">
+    <input type="submit" value="Login" />
+</form>
+{% endblock %}
